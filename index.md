@@ -1,7 +1,4 @@
 <!-- index.markdown -->
----
-title: ++C Esolang
----
 
 # Table Of Contents
 * Will be replaced with the ToC, excluding the "Contents" header
