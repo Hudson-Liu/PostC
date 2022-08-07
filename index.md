@@ -3,7 +3,7 @@
 
 ## Introduction
 
-"++C" is a C++ based programming/scripting language, created as a demonstration of using postfix notation in programming syntax. 
+**"++C" is a C++ based esolang** (esoteric programming language), created as a demonstration of using postfix notation in programming syntax. 
 
 The ++C interpreter currently supports only the following:
 1. The 3 datatypes int, string, and bool
