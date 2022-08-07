@@ -27,7 +27,7 @@ The infix expression `4 + 3` can be written in postfix notation as `4 3 +`.
 
 Postfix notation is oftentimes taught alongside the **stack** abstract data type (ADT). A stack is a type of collection that follows the **LIFO** (Last In First Out) principle. A postfix expression can be imagined as a stack of operands. By reading a postfix expression from left to right, adding each operand to a stack, and having each operator **pop 2 operands** off the stack and **push the result** back onto the stack, any postfix expression can be easily evaluated.
 
-[insert image of stack here]
+![Diagram depicting stack and postfix evaluation](/docs/assets/stack_diagram.jpg)
 
 As such, infix expressions such as `4 + 3 * 2` can be easily expressed in postfix notation as `4 3 2 * +`.
 
