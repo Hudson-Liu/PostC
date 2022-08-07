@@ -1,9 +1,10 @@
+# Table Of Contents
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Introduction
+# Introduction
 
-**"++C" is a C++ based esolang** (esoteric programming language), created as a demonstration of using postfix notation in programming syntax. 
+**"++C" is a C++ based esolang** (esoteric programming language) created as a demonstration of using postfix notation in programming syntax. 
 
 The ++C interpreter currently supports only the following:
 1. The 3 datatypes int, string, and bool
@@ -15,7 +16,7 @@ The ++C interpreter currently supports only the following:
 #### Note
 _In order for the ++C interpreter to support more functionalities without becoming large and cumbersome, the source code would need to be overhauled to rely less on C++ constructs and more on actual lower-level logic. The current interpreter represents ++C variables as elements of C++ lists, with each datatype having it's own list. Directly allocating memory and creating pointers would be much more efficient and scalable than using C++ lists, but would require an overhaul of the current interpreter._
 
-## Postfix Notation
+# Postfix Notation
 
 ++C (or PostC) is based off of a notation called postfix notation.
 
@@ -37,7 +38,7 @@ Each line of code is represented by a **stack of operands**, and **semicolons** 
 #### Note
 _A notable detail about postfix notation is that, unlike infix notation, spaces are required to make an equation work. In infix notation, spaces are not required as the operators separate the two operands. But in infix notation, nothing besides space separates the two operands, and as such, whitespace is an essential part of ++C._
 
-## Rvalue and Lvalue
+# Rvalue and Lvalue
 The **lvalue** and **rvalue** of an operator are shorthands for talking about the left operand and right operand of a **binary operator**.
 
 There are a few notable differences between ++C operands and mathematical operands
@@ -48,7 +49,7 @@ There are a few notable differences between ++C operands and mathematical operan
 #### Note
 _Although this isn't the typical use of the terms lvalue and rvalue, they fit this use case pretty well and I don't feel like coming up with new terminology._
 
-## Comments
+# Comments
 
 In ++C, **all comments are multiline comments**. This choice stems from the idea that newlines should not affect the functionality of code, which is why the ++C interpreter automatically **removes all newline characters**. C++ style comments would not make sense without newlines, and therefore all comments are given a distinct start and end.
 
@@ -62,7 +63,7 @@ If a comment splits an identifier in two, the interpreter will ignore the commen
 "test" co// This code is still valid //ut <<
 ```
 
-## Variable Assignment
+# Variable Assignment
 
 A simple integer assignment:
 ```
@@ -72,7 +73,7 @@ x int 0 =;
 
 This works the same way for all datatypes.
 
-## Printing Text: "cout"
+# Printing Text: "cout"
 
 Printing "Hello World":
 ```
@@ -92,7 +93,7 @@ message string "Goodbye World" =;
 message cout <<;
 ```
 
-## User Input: "cin"
+# User Input: "cin"
 
 Receiving a string and saving it to a variable:
 ```
