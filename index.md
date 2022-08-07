@@ -1,10 +1,18 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/Hudson-Liu/postc.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+"++C" is a C++ based programming/scripting language, created as a demonstration of using postfix notation in programming syntax. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The ++C interpreter currently supports only the following:
+1. The 3 datatypes int, string, and bool
+2. Basic arithmetic operators (addition, subtraction, multiplication, division)
+3. Variable declaration and assignment
+4. Comments
+5. Basic input/output with cout and cin
 
-### Markdown
+### Note
+_In order for the ++C interpreter to support more functionalities without becoming large and cumbersome, the source code would need to be overhauled to rely less on C++ constructs and more on actual lower-level logic. The current interpreter represents ++C variables as elements of C++ lists, with each datatype having it's own list. Directly allocating memory and creating pointers would be much more efficient and scalable than using C++ lists, but would require an overhaul of the current interpreter._
+
+## Comments
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
