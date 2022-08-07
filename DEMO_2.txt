@@ -1,0 +1,15 @@
+//
+DEMO 2: Hello World Comment Demonstration
+NOTE: This program's purpose is to show the formatting abilities of ++C, since newlines and comments are completely ignored
+//
+
+message1 string "Hello World\n" =;
+message2 string "Hello World Again\n" =;
+message3 string "Goodbye World :(" =;
+
+message1 cout <<;
+
+message2 co
+ut <<;
+
+message3 co//This comment will not interrupt the cout//ut <<;

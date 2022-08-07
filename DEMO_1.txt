@@ -1,0 +1,23 @@
+//
+DEMO 1: Simple Calculator
+NOTE: ++C does not support floats, and as such, the value returned for division will be an integer
+//
+
+"Enter two integers: " cout <<;
+x int y int cin >> >>;
+
+//Sum//
+sum int x y + =;
+endl sum "\nTheir sum is " cout << << <<;
+
+//Difference//
+difference int x y - =;
+endl difference "\nTheir difference is " cout << << <<;
+
+//Product//
+product int x y * =;
+endl product "\nTheir product is " cout << << <<;
+
+//Quotient//
+quotient int x y / =;
+endl quotient "\nTheir quotient is " cout << << <<;

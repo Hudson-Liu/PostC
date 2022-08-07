@@ -1,0 +1,8 @@
+//
+DEMO 3: String IO
+NOTE: Demonstrates IO with strings
+//
+
+"Enter your name: " cout <<;
+input string cin >>;
+", nice to meet you!" input "\nHi " cout << << <<;
