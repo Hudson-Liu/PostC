@@ -38,7 +38,7 @@ As such, infix expressions such as `4 + 3 * 2` can be easily expressed in postfi
 Each line of code is represented by a **stack of operands**, and **semicolons** notate the end of a line and the resetting of the stack.
 
 #### Note
-_A notable detail about postfix notation is that, unlike infix notation, spaces are required to make an equation work. In infix notation, spaces are not required as the operators separate the two operands. But in infix notation, nothing besides space separates the two operands, and as such, whitespace is an essential part of ++C._
+_A notable detail about postfix notation is that, unlike infix notation, spaces are required to make an equation work. In infix notation, spaces are not required as the operators separate the two operands. But in postfix notation, nothing besides space separates the two operands, and as such, whitespace is an essential part of ++C._
 
 # Rvalue and Lvalue
 The **lvalue** and **rvalue** of an operator are shorthands for talking about the left operand and right operand of a **binary operator**.
